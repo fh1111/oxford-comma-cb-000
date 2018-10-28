@@ -9,7 +9,7 @@ def oxford_comma(array)
     puts "#{newstring}"
     return newstring
   else
-    puts "#{array}"
+    puts "#{array[0]}"
     return array
   end
 
