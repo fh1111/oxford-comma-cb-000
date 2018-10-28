@@ -9,9 +9,8 @@ def oxford_comma(array)
     puts "#{newstring}"
     return newstring
   elsif array.lenght > 1
-    return array[0] + " and " array[1]
+    return array[0] + " and " + array[1]
   else
-
     puts "#{array[0]}"
     return array[0]
   end
