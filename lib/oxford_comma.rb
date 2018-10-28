@@ -3,7 +3,7 @@ def oxford_comma(array)
   newarray = array.pop
   string2 = newarray.join(",")+ "and" + last
   puts "#{string2}"
-  return
+  return string2
 
 end
 
