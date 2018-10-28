@@ -1,7 +1,7 @@
 def oxford_comma(array)
   last = array.last
   puts last
-  newarray = array.pop
+  newarray = array.shift
   puts newarray
   string2 = newarray.join(",")+ "and" + last
   puts "#{string2}"
