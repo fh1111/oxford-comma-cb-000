@@ -3,9 +3,9 @@ def oxford_comma(array)
   puts "#{last}"
 
   puts "#{array}"
-  #string2 = newarray.join(",")+ "and" + last
-  #puts "#{string2}"
-  #return string2
+  newstring = array.join(",")+ "and" + last
+  puts "#{newstring}"
+
 
 end
 
