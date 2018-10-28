@@ -4,7 +4,7 @@ def oxford_comma(array)
 
   #puts "#{array}"
   newstring = array.join(",")+ " and " + last
-  #puts "#{newstring}"
+  puts "#{newstring}"
 
   return newstring
 end
