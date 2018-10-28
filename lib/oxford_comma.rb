@@ -1,12 +1,18 @@
 def oxford_comma(array)
-  last = array.pop
-  #puts "#{last}"
 
-  #puts "#{array}"
-  newstring = array.join(",")+ " and " + last
-  puts "#{newstring}"
+  if (array.length > 1)
+    last = array.pop
+    #puts "#{last}"
 
-  return newstring
+    #puts "#{array}"
+    newstring = array.join(",")+ " and " + last
+    puts "#{newstring}"
+    return newstring
+  else
+    return array
+  end
+
+
 end
 
 oxford_comma(["Hi"])
