@@ -10,8 +10,8 @@ def oxford_comma(array)
     return newstring
   elsif (array.length > 1)
     newstring = array[0] + " and " + array[1]
-
-    return array[0] + " and " + array[1]
+    puts "#{newstring}"
+    return newstring
   else
     puts "#{array[0]}"
     return array[0]
