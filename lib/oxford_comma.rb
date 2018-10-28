@@ -8,7 +8,7 @@ def oxford_comma(array)
     newstring = array.join(", ")+ " and " + last
     puts "#{newstring}"
     return newstring
-  elsif array.lenght > 1
+  elsif array.length > 1
     return array[0] + " and " + array[1]
   else
     puts "#{array[0]}"
